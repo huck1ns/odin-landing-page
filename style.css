@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .logo {
@@ -166,4 +167,17 @@ ul {
 a {
     text-decoration: none;
     color: #caced4;
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    padding: 20px;
+    justify-content: center;
+    justify-self: flex-end;
+}
+
+.footer .text {
+
+    color: white;
 }
